@@ -1,0 +1,31 @@
+id,name,conditions,allergies
+1,John Doe,Hypertension;Diabetes,Penicillin
+2,Jane Smith,Infection,none
+3,Bob Lee,Hypertension,none
+4,Sarah Johnson,Hypertension;High Cholesterol,Sulfa
+5,Michael Brown,Diabetes;Heart Failure,none
+6,Emily Davis,Depression;Anxiety,none
+7,Robert Wilson,Asthma;Allergies,Aspirin
+8,Lisa Anderson,Arthritis;Hypertension,none
+9,David Martinez,GERD;Diabetes,none
+10,Jennifer Taylor,Anticoagulation;Pain,Penicillin;Ibuprofen
+11,James Thomas,Heart Failure;Hypertension,none
+12,Mary Garcia,Hypothyroidism;Depression,none
+13,Christopher Lee,Infection,Penicillin
+14,Patricia White,Neuropathy;Anxiety,none
+15,Daniel Harris,Inflammation;Asthma,Aspirin
+16,William Clark,Anticoagulation;High Cholesterol,none
+17,Susan Martinez,Hypertension;Pain,none
+18,Richard Lewis,Anticoagulation;Infection,none
+19,Karen Walker,Heart Failure;Pain,none
+20,Thomas Hall,GERD;Pain,none
+21,Nancy Green,Anxiety;Allergies,none
+22,Andrew Scott,Hypertension;Pain,none
+23,Michelle Adams,Diabetes;Inflammation,none
+24,Kevin Rodriguez,Hypertension;High Cholesterol,none
+25,Laura Mitchell,Anxiety;Allergies,none
+26,Brian Turner,Hypertension;Heart Failure,none
+27,Amanda Phillips,GERD;Arthritis,none
+28,Steven Campbell,Diabetes;Hypertension,none
+29,Rebecca Parker,Anxiety;Depression,none
+30,Jason Evans,Hypertension;Infection,none

@@ -1,0 +1,37 @@
+drug,condition,category,replacements
+Lisinopril,Hypertension,ACE Inhibitor,Losartan
+Losartan,Hypertension,ARB,Lisinopril
+Amlodipine,Hypertension,Calcium Channel Blocker,Nifedipine
+Hydrochlorothiazide,Hypertension,Diuretic,Furosemide
+Atenolol,Hypertension,Beta Blocker,Metoprolol
+Metformin,Diabetes,Biguanide,Glipizide
+Glipizide,Diabetes,Sulfonylurea,Metformin
+Insulin,Diabetes,Hormone,
+Simvastatin,High Cholesterol,Statin,Atorvastatin
+Atorvastatin,High Cholesterol,Statin,Simvastatin
+Ibuprofen,Pain,NSAID,Paracetamol
+Naproxen,Pain,NSAID,Paracetamol
+Penicillin,Infection,Antibiotic,Azithromycin
+Azithromycin,Infection,Antibiotic,Ciprofloxacin
+Ciprofloxacin,Infection,Antibiotic,Azithromycin
+Amoxicillin,Infection,Antibiotic,Azithromycin
+Aspirin,Pain,NSAID,Paracetamol
+Warfarin,Anticoagulation,Anticoagulant,Rivaroxaban
+Rivaroxaban,Anticoagulation,DOAC,Warfarin
+Clopidogrel,Anticoagulation,Antiplatelet,
+Paracetamol,Pain,Analgesic,Ibuprofen
+Omeprazole,GERD,Proton Pump Inhibitor,Lansoprazole
+Albuterol,Asthma,Bronchodilator,
+Montelukast,Asthma,Leukotriene Inhibitor,
+Fluoxetine,Depression,SSRI,Sertraline
+Sertraline,Depression,SSRI,Fluoxetine
+Alprazolam,Anxiety,Benzodiazepine,Lorazepam
+Lorazepam,Anxiety,Benzodiazepine,Alprazolam
+Gabapentin,Neuropathy,Anticonvulsant,Pregabalin
+Levothyroxine,Hypothyroidism,Thyroid Hormone,
+Prednisone,Inflammation,Corticosteroid,
+Methotrexate,Arthritis,Immunosuppressant,
+Furosemide,Heart Failure,Diuretic,Hydrochlorothiazide
+Digoxin,Heart Failure,Cardiac Glycoside,
+Diphenhydramine,Allergies,Antihistamine,Cetirizine
+Cetirizine,Allergies,Antihistamine,Loratadine

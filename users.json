@@ -1,0 +1,23 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "$2b$12$lCODC4gDAMxFJ9vNLPEW4OEXk3/rXPb7DY7cE.i2lnLEJdGHmfx5y",
+    "role": "Admin",
+    "email": "admin@drugconflict.com",
+    "created_at": "2025-11-22T22:32:37.926310"
+  },
+  "doctor": {
+    "username": "doctor",
+    "password": "$2b$12$jW7K0Bo3qcJ3SVA9fW.kyeOnGkq.mu06uO/ZfiNpfAVQ/mOuE9EM.",
+    "role": "Doctor",
+    "email": "doctor@drugconflict.com",
+    "created_at": "2025-11-22T22:32:38.160992"
+  },
+  "pharmacist": {
+    "username": "pharmacist",
+    "password": "$2b$12$nprNrnDEacyTmImVPnoPEO.AeBR7ptxtO8jWyYSuzrrkus5x/bB2y",
+    "role": "Pharmacist",
+    "email": "pharmacist@drugconflict.com",
+    "created_at": "2025-11-22T22:32:38.408699"
+  }
+}

@@ -1,0 +1,70 @@
+type,item_a,item_b,severity,recommendation,notes
+drug-drug,Aspirin,Warfarin,Major,Avoid combination; consider DOAC or monitor INR closely,Bleeding risk increases
+drug-drug,Ibuprofen,Warfarin,Major,Avoid NSAIDs; prefer Paracetamol with caution,Bleeding risk increases
+drug-drug,Naproxen,Warfarin,Major,Avoid NSAIDs; prefer Paracetamol,Bleeding risk increases
+drug-drug,Aspirin,Clopidogrel,Major,Monitor for bleeding; avoid long-term combination,Increased bleeding risk
+drug-drug,Ibuprofen,Clopidogrel,Moderate,Avoid NSAIDs with antiplatelet; prefer Paracetamol,Increased bleeding risk
+drug-drug,Naproxen,Clopidogrel,Moderate,Avoid NSAIDs with antiplatelet; prefer Paracetamol,Increased bleeding risk
+drug-drug,Warfarin,Rivaroxaban,Major,Never combine anticoagulants,Severe bleeding risk
+drug-drug,Aspirin,Rivaroxaban,Moderate,Monitor for bleeding; avoid combination if possible,Increased bleeding risk
+drug-drug,Ibuprofen,Rivaroxaban,Moderate,Avoid NSAIDs with anticoagulants,Increased bleeding risk
+drug-drug,Naproxen,Rivaroxaban,Moderate,Avoid NSAIDs with anticoagulants,Increased bleeding risk
+drug-condition,Hypertension,Ibuprofen,Moderate,Prefer Paracetamol; avoid NSAIDs if uncontrolled BP,May raise blood pressure
+drug-condition,Hypertension,Naproxen,Moderate,Prefer Paracetamol; avoid NSAIDs,May raise blood pressure
+drug-condition,Hypertension,Aspirin,Moderate,Monitor blood pressure; use low-dose if needed for cardioprotection,May raise blood pressure slightly
+drug-condition,PenicillinAllergy,Penicillin,Major,Use non-penicillin antibiotic such as Azithromycin,Anaphylaxis risk
+drug-condition,PenicillinAllergy,Amoxicillin,Major,Use non-penicillin antibiotic such as Azithromycin,Cross-reactivity with penicillin
+drug-condition,AspirinAllergy,Aspirin,Major,Use Paracetamol or other non-NSAID analgesic,Anaphylaxis or severe reaction risk
+drug-condition,IbuprofenAllergy,Ibuprofen,Major,Use Paracetamol instead,Allergic reaction risk
+drug-drug,Metformin,ContrastDye,Moderate,Withhold Metformin around contrast; monitor renal function,Lactic acidosis risk
+drug-drug,Warfarin,Simvastatin,Moderate,Monitor INR closely; may need dose adjustment,Increased anticoagulation effect
+drug-drug,Warfarin,Atorvastatin,Moderate,Monitor INR closely,Increased anticoagulation effect
+drug-drug,Digoxin,Furosemide,Moderate,Monitor potassium levels; supplement if needed,Hypokalemia increases digoxin toxicity
+drug-drug,Lisinopril,Hydrochlorothiazide,Minor,Monitor blood pressure and electrolytes,Generally safe combination
+drug-drug,Metformin,Furosemide,Moderate,Monitor renal function and blood glucose,Risk of lactic acidosis
+drug-drug,Fluoxetine,Alprazolam,Moderate,Monitor for excessive sedation,Increased benzodiazepine effect
+drug-drug,Sertraline,Lorazepam,Moderate,Monitor for excessive sedation,Increased benzodiazepine effect
+drug-drug,Omeprazole,Clopidogrel,Moderate,Consider alternative PPI like Pantoprazole,Reduced antiplatelet effect
+drug-drug,Azithromycin,Warfarin,Moderate,Monitor INR closely,Increased anticoagulation
+drug-drug,Ciprofloxacin,Warfarin,Moderate,Monitor INR closely,Increased anticoagulation
+drug-condition,Asthma,Atenolol,Moderate,Prefer cardioselective beta blockers or alternative,May trigger bronchospasm
+drug-condition,Heart Failure,Ibuprofen,Moderate,Avoid NSAIDs; use Paracetamol,May worsen heart failure
+drug-condition,Heart Failure,Naproxen,Moderate,Avoid NSAIDs; use Paracetamol,May worsen heart failure
+drug-condition,Diabetes,Prednisone,Moderate,Monitor blood glucose closely; may need insulin adjustment,Hyperglycemia risk
+drug-condition,Hypertension,Prednisone,Moderate,Monitor blood pressure,May increase blood pressure
+drug-drug,Warfarin,Aspirin,Major,Avoid unless absolutely necessary; monitor INR,Severe bleeding risk
+drug-drug,Methotrexate,Ibuprofen,Major,Avoid NSAIDs; use Paracetamol,Increased methotrexate toxicity
+drug-drug,Methotrexate,Naproxen,Major,Avoid NSAIDs,Increased methotrexate toxicity
+drug-drug,Levothyroxine,Omeprazole,Moderate,Separate administration by 4 hours,Reduced thyroid hormone absorption
+drug-drug,Gabapentin,Alprazolam,Moderate,Monitor for excessive sedation,Increased CNS depression
+drug-drug,Diphenhydramine,Alprazolam,Moderate,Avoid combination if possible,Excessive sedation risk
+drug-drug,Diphenhydramine,Lorazepam,Moderate,Avoid combination if possible,Excessive sedation risk
+drug-condition,Anxiety,Diphenhydramine,Minor,May increase anxiety in some patients,Paradoxical effect possible
+drug-condition,GERD,Aspirin,Moderate,Use enteric-coated or avoid; prefer Paracetamol,May worsen GERD symptoms
+drug-condition,GERD,Ibuprofen,Moderate,Avoid NSAIDs; use Paracetamol with PPI,May worsen GERD symptoms
+drug-condition,GERD,Naproxen,Moderate,Avoid NSAIDs; use Paracetamol with PPI,May worsen GERD symptoms
+drug-drug,Amlodipine,Simvastatin,Minor,Monitor for muscle pain; generally safe combination,Slight increase in statin levels
+drug-drug,Lisinopril,Metformin,Minor,Monitor renal function periodically,Generally safe combination
+drug-drug,Atenolol,Insulin,Minor,Monitor blood glucose; may mask hypoglycemia symptoms,Beta blockers can affect glucose metabolism
+drug-drug,Metoprolol,Metformin,Minor,Monitor blood glucose,May affect glucose metabolism
+drug-drug,Losartan,Hydrochlorothiazide,Minor,Monitor blood pressure and electrolytes,Generally safe and often combined
+drug-drug,Amlodipine,Atorvastatin,Minor,Monitor for muscle pain,Slight increase in statin levels
+drug-drug,Lisinopril,Amlodipine,Minor,Monitor blood pressure,Additive blood pressure lowering effect
+drug-drug,Metformin,Simvastatin,Minor,Monitor liver function,Generally safe combination
+drug-drug,Atorvastatin,Amlodipine,Minor,Monitor for muscle symptoms,Slight increase in statin exposure
+drug-drug,Cetirizine,Loratadine,Minor,Avoid duplication; choose one antihistamine,Unnecessary duplication of therapy
+drug-drug,Omeprazole,Lansoprazole,Minor,Avoid duplication; choose one PPI,Unnecessary duplication of therapy
+drug-drug,Fluoxetine,Sertraline,Minor,Avoid combining SSRIs; choose one,Risk of serotonin syndrome
+drug-drug,Ibuprofen,Naproxen,Minor,Avoid combining NSAIDs; choose one,Increased GI and bleeding risk
+drug-drug,Aspirin,Naproxen,Minor,Avoid combining NSAIDs when possible,Increased GI side effects
+drug-drug,Alprazolam,Lorazepam,Minor,Avoid combining benzodiazepines,Excessive sedation and dependence risk
+drug-condition,Hypertension,Amlodipine,Minor,Monitor blood pressure regularly,May cause ankle swelling
+drug-condition,Diabetes,Metformin,Minor,Monitor renal function and B12 levels,Generally first-line and safe
+drug-condition,High Cholesterol,Simvastatin,Minor,Monitor liver enzymes and muscle symptoms,Generally safe and effective
+drug-condition,Anxiety,Fluoxetine,Minor,May increase anxiety initially,Usually improves after 2-4 weeks
+drug-condition,Depression,Alprazolam,Minor,Not first-line for depression; prefer antidepressants,Benzodiazepines don't treat underlying depression
+drug-condition,Pain,Prednisone,Minor,Not ideal for chronic pain management,Anti-inflammatory but not primary analgesic
+drug-condition,Infection,Prednisone,Minor,May mask infection symptoms; monitor closely,Immunosuppressive effect
+drug-condition,Allergies,Prednisone,Minor,Effective but reserve for severe allergic reactions,Potent but has side effects
+drug-condition,Arthritis,Ibuprofen,Minor,Monitor for GI side effects with chronic use,Effective but use lowest effective dose
+drug-condition,Inflammation,Aspirin,Minor,Effective for inflammation; monitor GI tolerance,Use appropriate anti-inflammatory dose
